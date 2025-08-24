@@ -7,6 +7,6 @@ It has two files.
 1. main_basic.py : creates a basic 1D graph which invokes a chatbot and returns answer
 ![graph_basic](./output_basic.png)
 
-2. main.py : creates a bit more complex graph which checkes the user request. Classifies it as 'emotional' or 'logical'. It redirects emotional requests to 'therapist' agent and logical request to 'logical' agent.
+2. main.py : creates a bit more complex graph which checks the user request. Classifies it as 'emotional' or 'logical'. It redirects emotional requests to 'therapist' agent and logical request to 'logical' agent.
 ![graph](./output.png)
 

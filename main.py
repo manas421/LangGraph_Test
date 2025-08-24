@@ -18,7 +18,7 @@ llm = ChatOpenAI(
 class MessageClassifier(BaseModel):
     message_type: Literal["emotional","logical"] = Field(
         ...,
-        description="Calssify if the message requiers an emotional (therapist) or logical response")
+        description="Classify if the message requires an emotional (therapist) or logical response")
     
 
 class State(TypedDict):
